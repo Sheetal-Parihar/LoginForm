@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("https://marketplace.canva.com/EAFTQEWI-Ko/1/0/1600w/canva-black-sky-galaxy-stars-desktop-wallpaper-iWMZ0xN6KXs.jpg");
+    background-size: cover;
+}
+.box{
+   
+    height: 300px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+    background:transparent;
+    text-align:center;
+    justify-content: center;
+}
+.box h1
+{
+    text-align: center;
+    justify-content: center;
+
+    color:aqua;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.text{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    margin: auto;
+    padding: auto;
+    color: black;
+   
+    
+    
+}
+.text2{
+    display:flex;
+    justify-content: center;    
+}
+.box input[type="text"],.box input[type="password"]
+{
+
+background-color:none;
+display:flex;
+margin: 20px;
+text-align: center;
+border: 3px solid #288207fd ;
+padding: 14px ;
+width: 220px;
+
+color: rgb(18, 1, 1);
+border-radius: 24px;
+transition: 0.25px;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 220px;
+    border-color: blueviolet;
+}
+.box input[type="submit"]{
+    border: 0;
+background-color:transparent;
+display:flex;
+margin: 20px auto;
+text-align: center;
+align-items: center;
+border: 3px solid #f037d4fd ;
+padding: 14px 10px;
+width: 220px;
+outline:none;
+justify-content: center;
+color: black;
+border-radius: 24px;
+transition: 0.25px;
+cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+    background: #5440dbfd;
+}
+.box input[type="submit"]{
+    background: #f5a0bffd;
+}
